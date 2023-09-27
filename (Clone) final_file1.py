@@ -25,4 +25,9 @@ df1.write.mode("overwrite").option("overwriteSchema", "true").option("path","dbf
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC select count(*) from json.bronze
+
+# COMMAND ----------
+
 
